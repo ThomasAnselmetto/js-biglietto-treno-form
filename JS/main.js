@@ -1,17 +1,17 @@
 console.log(`inizio js`);
 
-const nameInput = document.getElementById("input-nome").value;
+const nameInput = document.querySelector("#input-nome");
 
-const nameTitle = document.getElementById("titolo-nome");
-// const kmInput = document.getElementById("journey-km").value;
+const kmInput = document.querySelector("#journey-km");
+
 const button = document.getElementById("bottone");
 
-// const costoAlKm = 0.21;
-// const costoTicket = (costoAlKm * kmInput);
-// console.log(costoTicket);
+const costoAlKm = 0.21;
+const costoTicket = (costoAlKm * kmInput);
+console.log(costoTicket);
 
 button.addEventListener("click", function () {
-    console.log(nameInput)
+    console.log(nameInput.value)
 
 
 });
