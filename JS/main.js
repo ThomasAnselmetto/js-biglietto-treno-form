@@ -1,3 +1,16 @@
+let km_da_percorrere = document.getElementById("journey-km");
+let range_of_age = document.getElementById("age-range");
+
+
+
+
+
+
+
+
+
+
+
 let KmPercorsi = prompt("quanti chilometri percorrerai?");
 
 console.log(KmPercorsi);
